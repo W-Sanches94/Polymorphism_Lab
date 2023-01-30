@@ -12,4 +12,12 @@ public class Town {
         this.Building.add(building);
     }
 
+    public void RemoveBuilding(Building building){
+        this.Building.remove(building);
+    }
+
+    public int countBuilding(){
+        return Building.size();
+    }
+
 }
