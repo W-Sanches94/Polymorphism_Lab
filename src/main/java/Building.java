@@ -14,7 +14,6 @@ public abstract class Building {
 
     // GETTERS & SETTERS
 
-
     public String getName() {
         return name;
     }
@@ -38,4 +37,5 @@ public abstract class Building {
     public void setDateOfConstruction(LocalDate dateOfConstruction) {
         this.dateOfConstruction = dateOfConstruction;
     }
+
 }

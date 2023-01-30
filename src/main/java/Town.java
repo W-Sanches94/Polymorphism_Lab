@@ -2,9 +2,14 @@ import java.util.ArrayList;
 
 public class Town {
 
-    private ArrayList<Building> Buildings;
+    private ArrayList<Building> Building;
 
     public Town(){
-        this.Buildings = new ArrayList<>();
+        this.Building = new ArrayList<>();
     }
+
+    public void addBuilding(Building building){
+        this.Building.add(building);
+    }
+
 }
