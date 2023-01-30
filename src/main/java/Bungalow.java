@@ -9,5 +9,10 @@ public class Bungalow extends Building{
         this.centralHeating = centralHeating;
     }
 
+//GETTERS & SETTERS
+
+    public void setCentralHeating(boolean centralHeating) {
+        this.centralHeating = centralHeating;
+    }
 
 }
