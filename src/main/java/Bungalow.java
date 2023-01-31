@@ -15,4 +15,16 @@ public class Bungalow extends Building{
         this.centralHeating = centralHeating;
     }
 
+//    public String stateFunction(){
+//       if (centralHeating == true){
+//           return "active";
+//       } else {
+//           return "un-active";
+//        }
+//
+//        public String stateFunction(){
+//        the heating is " + centralHeating + ".";
+//        }
+//    }
+
 }

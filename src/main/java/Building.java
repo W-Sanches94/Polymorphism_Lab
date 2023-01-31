@@ -12,6 +12,11 @@ public abstract class Building {
         this.dateOfConstruction = dateOfConstruction;
     }
 
+    //overide a method. use an abstract method.
+    // overload.default/changed method.
+
+    //interface
+
     // GETTERS & SETTERS
 
     public String getName() {
@@ -36,6 +41,10 @@ public abstract class Building {
 
     public void setDateOfConstruction(LocalDate dateOfConstruction) {
         this.dateOfConstruction = dateOfConstruction;
+    }
+
+    public String stateFunction(){
+        return "overload";
     }
 
 }
